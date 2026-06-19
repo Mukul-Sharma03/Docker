@@ -16,7 +16,7 @@ WORKDIR /var/www/html
 #Changing/Switching directories to /var/www/html
 
 RUN unzip templatemo_621_luminary.zip && \
-    mv templatemo_621_luminary/*/var/www/html/
+    mv templatemo_621_luminary/* /var/www/html/
 #Unzip the directory and moved static code into the /var/www/html
 
 
